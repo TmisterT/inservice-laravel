@@ -6,13 +6,12 @@
 
 # Public Service Office (PSO) Inservice System
 
-A centralized web application designed to streamline, track, and manage the end-to-end processing of in-service training and professional development applications within the public service. Built on the Laravel framework, this system transitions manual, paper-based workflows into a secure, auditable digital pipeline.
-
+The system helps applicants submit applications, upload supporting documents, record qualifications and employment history, and track the status of their applications. It also enables SROs, HODs from organisations and PSO(HRMC) Officers to review, screen, approve, reject, or return applications through a clear and structured workflow.
 ---
 
 ## 🔄 Core Workflow Pipeline
 
-[ Applicant ] ──> Submit Application ──> [ Organisation Reviewer ] ──> Revise/HOD Parts/SRO Parts submit ──> [ PSO Admin ] ──> Final Approval
+[ Applicant A1. A4 draft and submit] ──> Submit Application ──> [ Organisation Reviewer ] ──> Revise/HOD Parts(Performance A3)/SRO Parts(Pre-screening A2) submit ──> [ PSO Admin ] ──> Final Approval
 
 ---
 
@@ -21,11 +20,12 @@ A centralized web application designed to streamline, track, and manage the end-
 The platform is partitioned into distinct access layers to ensure clear separation of duties and secure data boundaries:
 
 ### 💼 1. Applicants Side
-
+        Create and submit application (Employees)
 
 ### 🏢 2. Organisation Reviewer
-
+        -Performance and Pre-Screening should be approved by HOD/SRO and review the application
 ### 👑 3. PSO & DTO Admintration (Filament Panels Optional)
+        - HRMC Director and Officers final review
 
 ## 🛠️ Built With
 * **Backend Engine:** Laravel 12.x / PHP 8.2+
@@ -36,10 +36,10 @@ The platform is partitioned into distinct access layers to ensure clear separati
 ## 🚀 Getting Started
 
 ### Prerequisites
-* OS: Ubuntu 24v 
+* OS: Ubunt, Winodws, Mac OS.
 * PHP >= 8.2
 * Composer
-* MySQL / MariaDB
+* MySQL server
 
 ### Installation Steps
 
