@@ -33,23 +33,3 @@ The platform is partitioned into distinct access layers to ensure clear separati
 * **Database Layer:** MySQL
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-* OS: Ubunt, Winodws, Mac OS.
-* PHP >= 8.2
-* Composer
-* MySQL server
-
-### Installation Steps
-
-1. **Clone the repository and enter the directory:**
-```bash
-   git clone <repository-url>
-   cd inservice-laravel
-   composer install
-   npm install && npm run build (optional)
-cp .env.example .env
-   php artisan key:generate
-   php artisan migrate --seed
-  php artisan serve
